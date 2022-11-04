@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b5934f47a1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Weight Converter</h1>
+        </div>
+        <div class="form-container">
+            <form action="#" method="#">
+                <div class="input-section">
+                    <input type="number" id="inputunit" placeholder="Input">
+                    <select id="inputType">
+                        <option value="kilogram">Kilogram</option>
+                        <option value="gram">Gram</option>
+                        <option value="milligram">Milligram</option>
+                        <option value="metricton">Metric Ton</option>
+                        <option value="stone">Stone</option>
+                        <option value="pound">Pound</option>
+                        <option value="ounce">Ounce</option>
+                        <option value="carat">Carat</option>
+                    </select>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-right-left"></i>
+                </div>
+                <div class="result-section">
+                    <input type="number" id="resultunit" placeholder="Result" selectable disabled>
+                    <select id="resultType">
+                        <option value="gram">Gram</option>
+                        <option value="kilogram">Kilogram</option>
+                        <option value="milligram">Milligram</option>
+                        <option value="metricton">Metric Ton</option>
+                        <option value="stone">Stone</option>
+                        <option value="pound">Pound</option>
+                        <option value="ounce">Ounce</option>
+                        <option value="carat">Carat</option>
+                    </select>
+                </div>
+                <br>
+                <div class="reset-btn" onclick="resetForm()">
+                    <span>Reset</span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
